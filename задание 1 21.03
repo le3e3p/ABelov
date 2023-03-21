@@ -1,5 +1,0 @@
-a=int(input())
-x=a//10%10
-y=a%10
-a=y*10+x
-print(a)
