@@ -1,0 +1,65 @@
+s = int(input())
+r = int(input())
+d = r * 2
+if s >= d:
+print('Впишется')
+else:
+print('Не впишется')
+a = float(input())
+b = float(input())
+print("Частное число а / b = ", a / b)
+
+s = int (input ()) r = int (input ()) d = r * 2 if s
+>=d:
+print ('P P?P8Q P5Q Q Q ')
+else
+:
+print ('P P5 P2P?P8Q P5Q Q Q ')
+
+a = float(input())
+b= 0
+if a < 0:
+b = a**2
+print(b)
+elif a > 0:
+b = 1 / (a**2)
+print(b)
+
+from math import *
+r = float(input())
+a= float(input())
+b = sqrt(a**2 + a**2)
+if r == b / 2:
+print("Вписанно")
+else:
+print("Не вписанно")
+
+a = float(input())
+b = float(input())
+print("Мах = ", max(a, b))
+a = float(input())
+b= 0
+if a < 0:
+b = a**2
+print(b)
+elif a > 0:
+b = 1 / (a**2)
+print(b)
+
+a = float(input())
+b = float(input())
+print("Минимальное = ", min(a, b))
+a= float(input())
+b= float(input())
+if a < 1:
+t= b**2 + a**2
+print(t)
+elif a > 1:
+t= b**2 - a**2
+print(t)
+
+a= float(input())
+b= float(input())
+a = a / 1000
+b = b * 0.45
+print("Большее расстояние = ", max(a, b))
