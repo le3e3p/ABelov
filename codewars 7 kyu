@@ -1,0 +1,50 @@
+def xo(s):
+    return (s.lower()).count("x") == (s.lower()).count("o")
+    
+from itertools import product
+def tap_code_translation(text):
+    base = ['.', '..', '...', '....', '.....']
+    v = (' '.join(c) for c in product(base, base))
+    k = 'abcdefghijlmnopqrstuvwxyz'
+    d = {k: v for (k, v) in zip(k, v)
+    return ' '.join(d.get(c, '. ...') for c in text)
+
+
+def sort_by_length(arr):
+    i = 0
+    sorted_arr = []
+    while len(sorted_arr) != len(arr):
+        for item in arr:
+            if len(item) == i:
+                sorted_arr.append(item)
+        i += 1
+    return sorted_arr
+    
+    def number(lines):
+  counter = 1;
+  result = [];
+  if len(lines) == 0:
+    return [];
+  for element in lines:
+    result.append(str(counter) + ": " + element);
+    counter += 1;
+  return result;
+  
+  def solution(start, finish):
+    difference = finish - start
+    return difference // 3 + difference % 3
+    
+    def sum_square_even_root_odd(nums):
+    return round(sum(n**0.5 if n & 1 else n**2 for n in nums), 2)
+    
+    def accum(s):
+    return "-".join([s[i].upper() + (s[i].lower() * i) for i in range(len(s))])
+    
+    from string import printable as pt
+def hello_world():
+    return pt[43]+pt[14]+pt[21]+pt[21]+pt[24]+pt[73]+pt[94]+pt[58]+pt[24]+pt[27]+pt[21]+pt[13]+pt[62]
+    
+    
+
+    
+    
