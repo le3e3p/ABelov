@@ -1,0 +1,44 @@
+
+проблема def(a): 
+ если тип(a) равен str:
+ вернуть "Ошибку"
+    вернуть 50*a+6
+    
+    def duplicate_encode(word):
+    return "".join(["(" if word.lower().count(l)==1 else ")" for l in word.lower()])
+    
+    def count_sheeps(sheep):
+  # TODO May the force be with you
+  a = 0
+  for i in sheep:
+      if i == True:
+          a += 1
+  return a
+  
+  def xor(a,b):
+  return a != b
+
+def plural(n):
+    return False if n == 1 else True
+    
+    def get_real_floor(n):
+    if n < 0: return n
+    elif n == 0: return 0
+    elif n >= 1 and n <= 13: return n-1
+    elif n >= 14: return n-2
+    
+    def bin_to_decimal(inp):
+    return int(inp,2)
+    
+    def position(alphabet):
+    return "Position of alphabet: %s" % (ord(alphabet) - 96)
+    
+    def bool_to_word(boolean):
+    return "Yes" if boolean == True else "No"
+    
+    def bmi(weight, height):
+    bmi = weight / height ** 2
+    if bmi <= 18.5 : return "Underweight"
+    elif bmi <= 25 : return "Normal"
+    elif bmi <= 30 : return "Overweight"
+    else: return "Obese"
